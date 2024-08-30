@@ -3,8 +3,7 @@
   scroll-behavior: smooth;
   list-style: none;
   text-decoration: none;
-  margin-left: 3px;
-  margin-right: 3px;
+margin: 0;
   padding: 0;
 }
 
@@ -24,13 +23,30 @@
 }
 
 header{
-  display: flex;
+  /* display: flex;
   background-color: #BBE7EB;
   width: 99vw;
   height: 4rem;
   align-items: center;
   position: fixed;
+  z-index: 10000; */
+}
+
+ul li {
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+header .header-container {
+  display: flex;
+  background-color: #BBE7EB;
+  width: 99vw;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
   z-index: 10000;
+  padding: 2rem;
 }
 
 .logo{
@@ -65,7 +81,7 @@ li a{
 .searchbar{
   display: flex;
   align-items: center;
-  margin-left: 15rem;
+  
 }
 
 .searching{
@@ -129,8 +145,11 @@ li a{
 }
 
 #section1{
-  width: 1440px;
-  height: 900px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -151,7 +170,7 @@ li a{
 }
 
 .img{
-  margin-left: 12rem;
+  margin-left: rem;
   width: 377px;
   height: 377px;
 }
@@ -185,6 +204,18 @@ li a{
   border: solid;
   border-color: #6BBCC9;
   cursor: pointer;
+}
+
+#section2{
+  padding: 0 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.news-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .judul-news{
