@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  margin-left: 8px;
+  padding: 0;
+}
+
+header{
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  
+}
