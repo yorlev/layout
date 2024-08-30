@@ -115,6 +115,10 @@ li a{
   transition: ease-in-out 0.2s;
 }
 
+
+
+/*Bagian Slideshow atau Banner*/
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -374,6 +378,10 @@ p {
   color: #000000;
 }
 
+@media(max-width: 1200px){
+  
+}
+
 /*Bagian Footer*/
 
 #section5{
@@ -382,12 +390,14 @@ p {
   color: white;
   width: 100vw;
   font-weight: 300;
+  padding: 0 2rem;
 }
 
 #section5 .social img{
   width: 4rem;
   height: 4rem;
   margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 #section5 .social{
@@ -427,6 +437,8 @@ p {
 	border-top: 1px solid #ffffff;
 	font-weight: 500;
 	font-size: 0.9rem;
+  color: white;
+  text-align: center;
 }
 
 #section5 .copyright p{
