@@ -22,6 +22,10 @@ margin: 0;
   src: url('/font/Poppins-Bold.otf');
 }
 
+body{
+  overflow-x: hidden;
+}
+
 header{
   /* display: flex;
   background-color: #BBE7EB;
@@ -166,11 +170,14 @@ li a{
 .about{
   font-family: "Poppins-Light";
   font-size: 1.2rem;
+  width: 50rem;
+}
 
+.about1{
+  margin-top: 1rem;
 }
 
 .img{
-  margin-left: rem;
   width: 377px;
   height: 377px;
 }
@@ -178,6 +185,8 @@ li a{
 .btn{
   display: flex;
   margin-right: 10rem;
+  margin-top: 2rem;
+  gap: 2rem;
 }
 
 .about-btn{
@@ -236,12 +245,18 @@ li a{
 }
 
 .news-img{
-  width: 25rem;
-  height: 13rem;
+  width: 30rem;
+  height: 18rem;
 }
 
 #section3{
   padding: 0 2rem;
+}
+
+.portfolio-container{
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 1.5rem;
 }
 
 .judul-portfolio{
@@ -251,7 +266,7 @@ li a{
 
 .portfolio-text{
   font-family: "Poppins-Medium";
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: -0.2rem;
 }
 
@@ -259,9 +274,22 @@ li a{
   font-family: "Poppins-Light";
   color: #C5C5C5;
   margin-top: -0.1rem;
+  font-size: 1.2rem;
 }
 
 .portfolio-imag{
-  width: 25rem;
-  height: 13rem;
+  width: 41.rem;
+  height: 20rem;
+}
+
+.portfolio-btn{
+  width: 5.5rem;
+  height: 3rem;
+  border: none;
+  background-color: #6BBCC9;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-family: "Poppins-Medium";
+  margin-left: 30rem;
+  cursor: pointer;
 }
