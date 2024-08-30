@@ -6,27 +6,38 @@
   margin-left: 3px;
   margin-right: 3px;
   padding: 0;
-  width: 1440px;
-  height: 900px;
+}
+
+@font-face{
+  font-family: 'Poppins-Medium';
+  src: url('/font/Poppins-Medium.otf');
+}
+
+@font-face{
+  font-family: 'Poppins-Light';
+  src: url('/font/Poppins-Light.otf');
 }
 
 header{
   display: flex;
   background-color: #BBE7EB;
-  width: 20px;
-
+  width: 99vw;
+  height: 4rem;
+  align-items: center;
 }
 
 .logo{
-  width: 100px;
-  height: 150px;
+  width: 170px;
+  height: 50px;
 }
 
 .menu{
   display: flex;
   justify-content: center;
-  margin-left: ;
+  margin-left: 25rem;
   gap: 2rem;
+  font-size: 19px;
+  font-family: "Poppins-Medium";
 }
 
 .down{
@@ -37,5 +48,22 @@ header{
 .searchbar{
   display: flex;
   align-items: center;
-  margin-left: 20rem;
+  margin-left: 13rem;
+}
+
+.searching{
+  width: 15rem;
+  height: 1.6rem;
+  border-style: solid;
+  border-color: white;
+  background-color: #BBE7EB;
+  font-family: "Poppins-Light";
+}
+
+.cari{
+  width: 4rem;
+  height: 1.6rem;
+  border-style: none;
+  background-color: white ;
+  font-family: "Poppins-Light";
 }
