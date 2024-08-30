@@ -285,7 +285,7 @@ li a{
   transition: ease-in 0.13s;
 }
 
-
+/*Bagian Services*/
 
 .services-img{
   width: 24.2rem;
@@ -302,6 +302,18 @@ li a{
 
 .services-desc{
   width: 24.2rem;
+}
+
+/*Bagian Testimonials*/
+.testimonials{
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.judul-testi{
+  margin-top: 2.5rem;
+  font-family: "Poppins-Medium";
 }
 
 .testimonial-card {
@@ -329,6 +341,15 @@ li a{
 
 .testimonial-content {
   flex-grow: 1;
+
+}
+
+.testi-name{
+  font-family: "Poppins-Medium";
+}
+
+.testi-desc{
+  font-family: "Poppins-Light";
 }
 
 .testimonial-header {
@@ -344,11 +365,87 @@ li a{
 }
 
 .rating {
-  color: #f4c542; /* Gold star color */
+  color: #f4c542;
   font-size: 1.2em;
 }
 
 p {
   margin: 0;
-  color: #555; /* Text color */
+  color: #000000;
+}
+
+/*Bagian Footer*/
+
+#section5{
+  background: #BBE7EB;
+  padding-block: 2rem;
+  color: white;
+  width: 100vw;
+  font-weight: 300;
+}
+
+#section5 .social img{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+}
+
+#section5 .social{
+  display: flex;
+  gap: 0.2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+#section5 .content{
+	display: flex;
+  gap: 2rem 1rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-bottom: 2 rem;
+  flex-wrap: wrap;
+}
+
+.judul-footer{
+  font-size: 1.5rem;
+  font-family: "Poppins-Medium";
+}
+
+.footer-desc{
+  color: white;
+  font-family: "Poppins-Light";
+}
+
+#section5 .content .left {
+	max-width: 600px;
+  margin-left: 2rem;
+}
+
+#section5 .copyright{
+  padding-top: 2rem;
+	margin-top: 1rem;
+	border-top: 1px solid #ffffff;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+#section5 .copyright p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  color: white;
+  font-family: "Poppins-Bold";
+}
+
+@media(max-width: 1200px){
+  #section5 .social img{
+    display: flex;
+    flex-direction: column;
+  }
+  #section5{
+    margin-left: 2rem;
+  }
 }
