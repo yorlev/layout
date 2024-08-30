@@ -18,6 +18,11 @@
   src: url('/font/Poppins-Light.otf');
 }
 
+@font-face{
+  font-family: 'Poppins-Bold';
+  src: url('/font/Poppins-Bold.otf');
+}
+
 header{
   display: flex;
   background-color: #BBE7EB;
@@ -34,10 +39,16 @@ header{
 .menu{
   display: flex;
   justify-content: center;
-  margin-left: 25rem;
+  margin-left: 23rem;
   gap: 2rem;
   font-size: 19px;
   font-family: "Poppins-Medium";
+  color: #77B2BB;
+  cursor: pointer;
+}
+
+.option:hover{
+  text-decoration: underline;
 }
 
 .down{
@@ -48,22 +59,65 @@ header{
 .searchbar{
   display: flex;
   align-items: center;
-  margin-left: 13rem;
+  margin-left: 15rem;
 }
 
 .searching{
   width: 15rem;
-  height: 1.6rem;
+  height: 1.9rem;
   border-style: solid;
   border-color: white;
   background-color: #BBE7EB;
   font-family: "Poppins-Light";
+  color: #77B2BB;
 }
 
 .cari{
   width: 4rem;
-  height: 1.6rem;
+  height: 1.9rem;
   border-style: none;
   background-color: white ;
-  font-family: "Poppins-Light";
+  font-family: "Poppins-Medium";
+  cursor: pointer;
+  color: #77B2BB;
+}
+
+.cari:hover{
+  background-color: #a6cbcf;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.dot {
+  cursor: pointer;
+  height: 50px; 
+  width: 50px;   
+  margin: 0 5px; 
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.dot img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px; 
+  object-fit: cover;  
+}
+
+.active img {
+  border: 2px solid #717171; 
+}
+
+.dot img:hover {
+  transform: scale(1.1);  
 }
