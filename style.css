@@ -100,11 +100,11 @@ header{
 
 .dot {
   cursor: pointer;
-  height: 50px; 
-  width: 50px;   
+  height: 70px; 
+  width: 70px;   
   margin: 0 5px; 
   display: inline-block;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease-in;
 }
 
 .dot img {
