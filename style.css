@@ -221,27 +221,27 @@ li a{
   height: 100vh;
 }
 
-.news-container, .portfolio-container{
+.news-container, .portfolio-container, .services-container{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-.judul-news, .judul-portfolio{
+.judul-news, .judul-portfolio, .judul-services{
   font-family: "Poppins-Bold";
   font-size: 2rem;
 }
 
-.news-text, .portfolio-text{
+.news-text, .portfolio-text, .services-text{
   font-family: "Poppins-Medium";
   font-size: 1.2rem;
   margin-top: -0.1rem;
 }
 
-.news-desc, .portfolio-desc{
+.news-desc, .portfolio-desc, .services-desc{
   font-family: "Poppins-Light";
   color: #C5C5C5;
-  margin-top: 1rem;
+  margin-top: -0.1rem;
 }
 
 .news-img{
@@ -282,4 +282,23 @@ li a{
   background-color: #518d96;
   color: white;
   transition: ease-in 0.13s;
+}
+
+
+
+.services-img{
+  width: 24.2rem;
+  height: 20rem;
+  gap: 1rem;
+}
+
+#section4{
+  padding: 0 2rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.services-desc{
+  width: 24.2rem;
 }
