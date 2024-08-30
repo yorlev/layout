@@ -29,6 +29,8 @@ header{
   width: 99vw;
   height: 4rem;
   align-items: center;
+  position: fixed;
+  z-index: 10000;
 }
 
 .logo{
@@ -36,7 +38,7 @@ header{
   height: 50px;
 }
 
-.menu{
+.menu {
   display: flex;
   justify-content: center;
   margin-left: 23rem;
@@ -120,4 +122,43 @@ header{
 
 .dot img:hover {
   transform: scale(1.1);  
+}
+
+#section1{
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.about-left{
+  flex-wrap: wrap;
+}
+
+.judul{
+  font-family: "Poppins-Bold";
+  font-size: 2rem;
+}
+
+.about{
+  font-family: "Poppins-Light";
+  font-size: 1.2rem;
+
+}
+
+.img{
+  margin-left: 12rem;
+  width: 377px;
+  height: 377px;
+}
+
+.btn{
+  display: flex;
+  margin-right: 10rem;
+}
+
+.about-btn{
+  border: none;
+  width: 2rem;
+  height: 5rem;
 }
