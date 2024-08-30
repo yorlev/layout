@@ -38,6 +38,10 @@ header{
   height: 50px;
 }
 
+li a{
+  color: #77B2BB;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -158,7 +162,49 @@ header{
 }
 
 .about-btn{
+  font-family: "Poppins-Medium";
+  font-size: 1rem;
   border: none;
-  width: 2rem;
-  height: 5rem;
+  border-radius: 3rem;
+  width: 8rem;
+  height: 4rem;
+  background-color: #6BBCC9;
+  color: white;
+  cursor: pointer;
+}
+
+.about-btn2{
+  font-family: "Poppins-Medium";
+  font-size: 1rem;
+  border: none;
+  border-radius: 3rem;
+  width: 8rem;
+  height: 4rem;
+  background: none;
+  color: #6BBCC9;
+  border: solid;
+  border-color: #6BBCC9;
+  cursor: pointer;
+}
+
+.judul-news{
+  font-family: "Poppins-Bold";
+  font-size: 2rem;
+}
+
+.news-text{
+  font-family: "Poppins-Medium";
+  font-size: 1.2rem;
+  margin-top: -0.1rem;
+}
+
+.news-desc{
+  font-family: "Poppins-Light";
+  color: #C5C5C5;
+  margin-top: -1.6rem;
+}
+
+.news-img{
+  width: 25rem;
+  height: 13rem;
 }
